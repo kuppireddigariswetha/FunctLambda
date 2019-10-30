@@ -3,6 +3,15 @@ public class Product {
 
 private String pname;
 private int price;
+private int avgPrice;
+
+
+public int getAvgPrice() {
+	return avgPrice;
+}
+public void setAvgPrice(int avgPrice) {
+	this.avgPrice = avgPrice;
+}
 public String getPname() {
 	return pname;
 }
